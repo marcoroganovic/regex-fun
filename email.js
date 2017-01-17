@@ -1,5 +1,5 @@
 function isEmail(input) {
-  return /^\w+[._]?\w+?@\w+[_-]*?\w+?\.\w{2,}/.test(input);
+  return /^\w+[._]?\w+?@\w+[_-]*?\w+?\.\w{2,}$/.test(input);
 }
 
 console.log(isEmail("marcoroganovic@gmail.com"));
